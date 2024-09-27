@@ -1,0 +1,81 @@
+.connect-store-container {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .connect-store-main {
+    width: 1200px;
+    margin: auto;
+    color: #17262b;
+    padding: 100px 0 120px 0;
+  }
+  @media (max-width: 960px) {
+    .connect-store-main {
+      width: auto;
+      margin: auto 20px;
+      padding: 0;
+      text-align: start;
+    }
+  }   
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  @media (max-width: 960px) {
+    .content {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }  
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 50px;
+  }
+  
+  .integration-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  @media (max-width: 600px) {
+    .integration-grid {
+      gap: 20px;
+    }
+  }
+  
+  .integration-item {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .integration-item img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  @media (max-width: 960px) {
+    .integration-item {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+   
+    .integration-item {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  

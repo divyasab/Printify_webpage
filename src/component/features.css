@@ -1,0 +1,61 @@
+.features-container{
+    position: relative;
+}
+.features-main{
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+    padding: 144px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:960px) {
+    .features-main{
+        width: auto;
+        margin: auto 20px;
+        padding: 56px 20px;
+    }    
+    
+}
+@media (max-width:480px) {
+    .features-main{
+        flex-direction: column;
+        margin: auto 20px;
+        padding: 56px 0px;
+    }    
+    
+}
+.features-profit{
+    width: 330px;
+    height: 283px;
+    line-height: 32px;
+    color: #17262b;;
+    margin-top: 32px;
+}
+@media(max-width:960px) {
+    .features-profit{
+        width: auto;
+        height: auto;
+        margin-right: 16px;
+    }    
+}    
+.profit-icon{
+    width: 120px;
+    height: 120px;
+    
+}
+.profit-name{
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    color: #17262b;
+}
+.profit-content{
+    color: #485256;
+    padding: 0;
+    margin-top: 24px;
+}
+p{
+    line-height: 23px;
+    font-size: 16px;
+}

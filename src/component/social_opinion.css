@@ -1,0 +1,155 @@
+
+body{
+    font-family: 'inherit', sans-serif;
+
+}
+.social-opinion-container {
+    background-color: #f7f7f7;
+}
+  
+.social-opinion-main {
+    width: 1200px;
+    padding-top: 140px;
+    height: 737px;
+    margin: auto;
+}
+@media(max-width:960px) {
+    .social-opinion-main{
+        width: auto;
+        height: auto;
+        margin: auto 20px;
+        padding-top: 56px;
+        
+        
+    }
+}
+  
+@media (max-width: 960px) {
+  
+}
+  
+
+.social-opinion-content{
+    width: 100%;
+    display: flex;
+    height: 168px;
+}
+
+@media(max-width:960px) {
+
+    .social-opinion-content{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        
+    }
+   
+}
+.social-opinion-items{
+    width: 385px;
+    margin-right: 64px;
+    height: 168px;
+
+}
+@media(max-width:960px) {
+    .social-opinion-items{
+      width: auto;
+      height: auto;
+      margin: 0;
+      width: 100%;
+    
+   
+    }
+}
+h2{
+    line-height: 56px;
+    font-size: 40px;
+    margin: 0;
+}
+@media(max-width:960px) {
+   h2{
+    font-size: 32px;
+    line-height: 40px;
+   
+    }
+}
+p{
+    margin: 0;
+    padding: 30px 0;
+    line-height: 24px;
+    font-size: inherit;
+    font-weight: normal;
+    color: #485256;;
+}
+.social-rating{
+    width: 100%;
+    height: 487px;
+    display: flex;
+
+}
+@media (max-width:960px) {
+    .social-rating{
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    
+
+}
+.social-reply{
+    width: 368px;
+    margin: 72px 32px 40px 0px;
+    padding: 42px 30px;
+    flex-shrink: 0;
+    box-shadow: 0 60px 34px #ededed2e;
+}
+@media (max-width:960px) {
+    .social-reply:nth-child(2),
+    .social-reply:nth-child(3) {
+        display: none;
+       
+    }
+    .social-reply{
+        margin: 0;
+        width: auto;
+        padding: 26px 0px 60px 0px;
+    }
+}  
+.social-details{
+    display: flex;
+}
+.robert-image{
+    width: 64px;
+    height: 64px;
+    margin-right: 25px;
+    border-radius: 9px;
+    background-size: 100% 100%;
+}
+.scoial-headline{
+    font-size: 24px;
+    line-height: 32px;
+    color: #17262b;
+    font-weight: 700;
+}
+.social-link{
+    color: #29ab51;
+    text-decoration: none;
+    font-weight: initial;
+}
+.social-star{
+    display: flex;
+    margin-top: 8px;
+}
+.star1{
+    margin-right: 5px;
+}
+.social-link1{
+    margin-top: 2px;
+    padding: 0;
+}
+.social-swiper{
+    flex-shrink: 0;
+}
+.social-comment{
+    width: 200px;
+}

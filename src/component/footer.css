@@ -1,0 +1,140 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:960px) {
+    .footer-container{
+        display: block;
+    }
+    
+}
+.footer-main{
+    width: 1200px;
+    height: 993px;
+}
+@media (max-width:960px) {
+    .footer-main{
+        width: auto;
+        height: auto;
+        margin: auto 20px;
+    }
+    
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+@media (max-width:960px) {
+    .footer-icons{
+        width: auto;
+        margin: auto 32px;
+        
+    }
+    .footer-text{
+        width: auto;
+
+    }
+    
+}
+@media (max-width:600px) {
+    .footer-icons{
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+
+    }
+    .header-logo1{
+        display: block;
+        width: 135px;
+
+    }
+    .footer-logo{
+        margin-top: 26px;
+    }
+}
+
+
+.footer-logo{
+    width: 336px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    height: 659px;
+    margin: 96px 0px 72px 0px;
+    font-family: CerebriSans, sans-serif;
+    font-weight: 700;
+}
+@media (max-width:960px) {
+    .footer-content{
+      height: auto;
+      flex-wrap: wrap;
+    }
+    
+}
+.footer-text{
+    width: 202px;
+}
+@media(max-width:960px) {
+    .footer-text{
+        flex: 0 1 45%; 
+        width: auto;
+    }    
+}
+
+
+.footer-subtitle{
+    margin-bottom: 24px;
+    line-height: 23px;
+    font-size: 16px;
+    color: #353a47;
+    margin: 0px 0px 24px 0px;
+
+}
+.footer-link{
+    display: block;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: initial;
+    font-family: inherit;
+    cursor: pointer;
+    color: #353a47;
+}
+.site-info-main{
+    position: relative;
+    background: #f7f7f7;
+    height: 56px;
+    text-align: center;
+}
+
+.site-link{
+    color: #1b1b1b;
+    font-family: inherit;
+    font-weight: initial;
+    font-size: .875em;
+    margin-bottom: 16px;
+    margin-right: 20px;
+    color: #949494;
+}
+p{
+    padding: 0;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.site-info-container{
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    top: 0;
+    padding: 36px 0px 24px 0px;
+
+    left: calc((100vw - 100%) / -2);
+    background: #f7f7f7;
+}

@@ -1,0 +1,188 @@
+
+body{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.header-container{
+    background-color: #fff;
+    box-shadow: 0 3px 4px #0000000a;
+    position:fixed;
+    left:  0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}    
+
+.header-main{
+    width: 1200px;
+    height: 72px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:960px){
+    .header-main{
+        width: auto;
+        margin: auto 20px;
+    
+    }
+.header-logobar{
+    display: flex;
+}
+    
+}
+.mobile-logo{
+    width: 50px;
+    height: 50px;
+
+}
+.header-logo{
+    width: 135px;
+
+}
+
+
+
+@media (max-width:600px){
+    .header-logobar{
+        display: block;
+
+    }
+    .logo-containar{
+        display: block;
+        width: 135px;
+    }
+    .header-logo{
+        display: none;
+      
+    }
+    .mobile-logo{
+        display: block;
+    }
+    .menu-icon{
+        margin-top: 10px;
+    }
+}
+@media (min-width:600px){
+    
+    .header-logo{
+        display: block;
+        margin-left: 15px;
+
+      
+    }
+    .mobile-logo{
+        display: none;
+    }
+    .menu-icon {
+        margin-top: 4px;
+    }    
+    
+}
+
+
+@media (max-width:960px){
+    .menu-icon {
+        display: block;
+        float: left;
+        font-size: 27px;
+        color: #39b75d;
+        cursor: pointer;
+    }
+    
+    
+}    
+@media (min-width:960px){
+    .menu-icon {
+        display: none;
+        margin-top: 4px;
+       
+    }
+    
+   
+    
+}    
+
+
+.header-pages{
+    height: 50px;
+    width: 681px;
+    display: flex;
+    font-weight: initial;
+    font-family: 'inherit', sans-serif;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+@media (max-width:960px){
+    .header-pages{
+        display: none;
+    }
+}
+.header-pages a{
+    text-align: center;
+    color: #353a47;
+    text-decoration: none;
+
+}
+.header-pages .active{
+    width: 63px;
+}
+.header-pages .active1{
+    width: 120px;
+}
+.header-pages .active2{
+    width: 59px;
+}
+.header-pages .active3{
+    width: 41px;
+}
+.header-pages .active4{
+    width: 88px;
+}
+.header-pages .active5{
+    width: 101px;
+}
+.header-pages .active6{
+    width: 107px;
+}
+.header-items{
+    width: 208px;
+    color: #353a47;
+    font-family: 'inherit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: 0 0 #00c3603d;
+
+
+
+}
+.header-button {
+    width: 88px;
+    height: 36px;
+    background-color: #fff;
+    font-family: 'inherit', sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+.header-button1{
+    background-color: #39b75d;
+    width: 88px;
+    font-family: 'inherit', sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    height: 36px;
+    color: #fff;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+    
